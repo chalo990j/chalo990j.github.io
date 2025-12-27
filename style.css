@@ -109,6 +109,16 @@ body {
 .card:hover {
   transform: translateY(-10px);
 }
+.certifications {
+  padding: 80px 8%;
+}
+
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 25px;
+}
+
 
 /* SECTIONS */
 .about, .contact {
